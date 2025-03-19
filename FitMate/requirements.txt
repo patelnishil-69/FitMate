@@ -1,4 +1,0 @@
-mediapipe
-numpy
-pygame
-opencv-python
