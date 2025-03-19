@@ -38,7 +38,7 @@ def play_warning_sound(warning_type):
         print(f"⚠️ Error playing sound: {e}")
 
 # Initialize video capture
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 # Variables for squat detection
 stage = "up"

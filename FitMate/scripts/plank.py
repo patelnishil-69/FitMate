@@ -44,7 +44,7 @@ def calculate_ang(a, b, c):
 
 # Initialize Pose estimation
 pose = mp_pose.Pose()
-cap = cv2.VideoCapture(1)  # Open webcam
+cap = cv2.VideoCapture(0)  # Open webcam
 
 plank_timer = 0  # Counter for plank hold time
 state = False  # Plank position state

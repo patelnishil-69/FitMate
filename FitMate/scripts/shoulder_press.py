@@ -25,7 +25,7 @@ mp_pose = mp.solutions.pose
 mp_drawing = mp.solutions.drawing_utils
 pose = mp_pose.Pose()
 
-cap = cv2.VideoCapture(1)  # Open webcam
+cap = cv2.VideoCapture(0)  # Open webcam
 rep_count, stage = 0, "down"
 
 # Track last warning times to avoid frequent sound playback

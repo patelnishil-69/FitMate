@@ -43,7 +43,7 @@ def calculate_ang(a, b, c):
 
 # Initialize Pose model
 pose = mp_pose.Pose()
-cap = cv2.VideoCapture(1)  # Open webcam
+cap = cv2.VideoCapture(0)  # Open webcam
 
 # Variables for push-up detection
 pushup_counter = 0
